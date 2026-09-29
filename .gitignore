@@ -1,0 +1,22 @@
+# Executáveis e objetos
+*.exe
+*.out
+*.o
+*.obj
+
+# Executáveis sem extensão (Linux/macOS) gerados ao compilar os .c
+*/exemplo
+*/gabarito/pratico/ex[0-9][0-9]_*
+!*/gabarito/pratico/*.c
+
+# Arquivos gerados pelos programas de exemplo/gabarito
+*.bin
+*.txt
+!requirements.txt
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/*
+!.vscode/tasks.json
